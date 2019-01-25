@@ -17,7 +17,7 @@ function fibonacci(num) {
    
 
  }
- return cuil[num];
+ return cuil[num + 1];
 }
 
 fibonacci()
