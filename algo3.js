@@ -5,5 +5,19 @@
 */
 
 function fibonacci(num) {
-  
+ let start = 0;
+ let calcul = 1;
+ let cuil = [0,1];
+ 
+ for(let i = 2; i < num+2; i++){
+     cuil[i] = cuil[start] + cuil[calcul];
+     start++;
+     calcul++;
+
+   
+
+ }
+ return cuil[num];
 }
+
+fibonacci()

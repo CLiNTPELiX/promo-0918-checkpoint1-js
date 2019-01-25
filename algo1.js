@@ -17,3 +17,30 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function place(){
+var tab = [];
+
+var largeur = 1;
+var longueur = 1;
+
+
+for (let x = 1; x<2601;x++){
+    let titi = largeur + "-" + longueur
+    tab[x]=titi;
+    longueur = longueur + 1;
+    
+
+    if (longueur > 100){
+      longueur = 1;
+      largeur = largeur + 1;
+    }
+    
+}
+ return tab;
+}
+place()
+
+
+
+

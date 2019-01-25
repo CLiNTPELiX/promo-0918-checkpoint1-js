@@ -53,7 +53,7 @@ Fichiers à utiliser :
 Crée une grille de photos de cuisine avec le framework Boostrap 4 et son système de Grid:
 
 Urls de photos:
-https://pixabay.com/fr/photos/?q=recette&hp=&image_type=all&order=popular&cat=&orientation=horizontal
+	https://pixabay.com/fr/photos/?q=recette&hp=&image_type=all&order=popular&cat=&orientation=horizontal
 
 Format des photos sur la Grille:
 
