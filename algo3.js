@@ -4,6 +4,5 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
-}
+let fibonacci = (n) => { 
+    return (n - 1) <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);}
