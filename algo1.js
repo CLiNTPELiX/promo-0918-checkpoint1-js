@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+let collone = new Array();
+
+for (let i = 1; i <= 26 ; i++) {
+  collone[i] = new Array();
+  
+  for (let j = 1; j <= 100; j++) 
+    const element = array[j];
+  
+}
+/* je sais que ça ne fonctionne pas... mais je n'ai pas la suite */
