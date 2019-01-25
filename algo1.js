@@ -1,8 +1,8 @@
 /*
 Un employé de théatre voudrait afficher la liste de tous les sièges présents dans sa salle principale.
 Dans la salle les sièges sont répartis de la manière suivantes : 
-  - Il y a 26 colonnes de sièges, numérotés de "1" à "26"
-  - Chaque colonne contient 100 sièges, numérotés de "1" à "100"
+- Il y a 26 colonnes de sièges, numérotés de "1" à "26"
+- Chaque colonne contient 100 sièges, numérotés de "1" à "100"
 
 Au final la liste devra ressembler à : 
 1-1 
@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+function theatre (){
+  let colonne = 26;
+  let sieges = 100;
+  let result = [];
+  
+  for(let i=1;i<colonne+1;i++){
+    for(let x=1;x<sieges+1;x++){
+      result.push(i + "-" + x);
+    }
+  }
+  return result;
+}
