@@ -14,7 +14,7 @@ function fibonacci(num) {
   }
   let rabbitMale = 0;
   let rabbitFemale = 1;
-  for(var i=2; i<= num; i++){
+  for(var i=2; i<= num+1; i++){
       calcul = rabbitFemale + rabbitMale
       rabbitMale = rabbitFemale
       rabbitFemale = calcul
