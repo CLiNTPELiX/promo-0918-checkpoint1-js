@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+function theatre(result) {
+  var result = [];
+
+  for (var count = 1; count <= 26; count++) {
+    for (var count2 = 1; count2 <= 100; count2++) {
+      result.push(count + "-" + count2);
+    }   
+  }
+  return result;
+}
