@@ -17,18 +17,18 @@
 * Résultat : [7, 85]
 */
 
-function minMax(array) {
-  var min = array[0];
-  var max = array[0];
+function minMax(array) { // j'ai remplacer par une fonction ES5
+  var min = array[0]; // ceci est une variable
+  var max = array[0]; // Ceci est une var, non une constante
 
-  for (let i = 1; i < array.length -1; i++) {
-      if (min > array[i]) {
-         min = array[i];
+  for (let i = 0; i < array.length; i++) { // pour l'incrémentation de 1 : i++
+      if (min > array[i]) { // crochet pour le tableau
+         min = array[i]; //recher dans un tableau avec crochet et le numéro de l'item
       }
-      if (max < array[i] ) {
+      if (max < array[i] ) { // comparaison et pas ==
           max = array[i];   
       }
   }
   var result = [min, max];
-  return result;
+  return result; // Son return était dans la boucle For
 }
